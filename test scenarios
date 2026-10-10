@@ -1,0 +1,15 @@
+# Test Scenarios
+
+| Scenario | Expected workflow response | What to check |
+|---|---|---|
+| Customer does not reply to kickoff options for 2 business days | CS sends one polite reminder and records the next action. | Tone is helpful, not blaming; no repeated automated messages. |
+| Customer admin cannot provide user list | Mark readiness as blocked, record owner and follow-up date. | Workflow does not pretend setup is complete. |
+| First workflow test fails | Capture what happened, expected behavior, and a reproducible example; assign an owner. | Avoid unsupported promises; keep customer informed. |
+| Customer says the workflow does not solve the original problem | Revisit success criteria and agree on a corrective action. | Do not mark onboarding successful without confirmation. |
+| All tasks are complete but customer has not confirmed outcome | Ask for feedback and keep value confirmation open. | Task completion is not treated as proof of customer success. |
+
+## Acceptance criteria
+- Every open blocker has an owner and next action.
+- Customer communications use clear, respectful language.
+- The workflow distinguishes task completion from achieved customer value.
+- AI suggestions are reviewed by a person before being sent or acted on.
