@@ -1,0 +1,33 @@
+# AI Prompt Log and Human Review
+
+## Prompt 1: Turn a goal into a workflow
+**Example prompt**
+> Draft a beginner-friendly customer onboarding workflow for a fictional SaaS customer. Include steps from signup to first value, an owner for each step, completion evidence, and what to do if blocked. Keep it practical and do not invent product features.
+
+**Human review checklist**
+- Check that each step has a clear owner.
+- Make completion evidence observable.
+- Ensure blockers have a human owner and next action.
+- Remove unsupported product-specific claims.
+
+## Prompt 2: Draft customer communication
+**Example prompt**
+> Write a concise, warm welcome email for a fictional SaaS customer. Explain the purpose of kickoff, ask about the customer's desired outcome, and offer two meeting options. Use placeholders and do not claim any feature exists unless provided.
+
+**Human review checklist**
+- Check tone and clarity.
+- Verify dates, names, and product claims.
+- Make the next action obvious.
+- Remove sensitive or unnecessary information.
+
+## Prompt 3: Generate test scenarios
+**Example prompt**
+> Suggest realistic edge cases for a customer onboarding workflow, including a delayed response, missing access, a blocker during testing, and a customer who has not confirmed value. For each, propose a human follow-up action. Do not automatically infer churn risk.
+
+**Human review checklist**
+- Ensure scenarios are plausible.
+- Keep flags neutral and evidence-based.
+- Require human judgment for customer-impacting decisions.
+
+## Reflection
+AI is useful for producing a structured first draft quickly. It does not replace context, judgment, or verification. In a real environment, I would use approved tools, avoid entering confidential customer data into public AI systems, and test the process with stakeholders before deployment.
